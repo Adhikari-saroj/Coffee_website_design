@@ -1,6 +1,6 @@
-import React from 'react'
-import Hero from './assets/components/Hero/Hero'
- 
+import React from 'react';
+import Hero from './assets/components/Hero/Hero';
+import Menu from './assets/components/Menu/Menu';
 
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <div className='overflow-x-hidden'>
   
      <Hero />
+     <Menu />
     </div>
   )
 }
